@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvgfg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-8dp"
+        android:gravity="center"
+        android:text="MORCE CODE"
+        android:textAlignment="center"
+        android:textColor="#bb001f"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/etinput"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvgfg"
+        android:layout_marginTop="5dp"
+        android:background="#bdc2c7"
+        android:gravity="start" />
+
+    <!--edit text to accept the input from the user-->
+    <LinearLayout
+        android:id="@+id/llout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/etinput"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btndecode"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/neonbutton"
+            android:padding="13dp"
+            android:text="დაშიფრვა"
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:backgroundTint="#bb001f"/>
+
+
+        <Button
+            android:id="@+id/btnclear"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/neonbutton"
+            android:padding="13dp"
+            android:text="წაშლა"
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:backgroundTint="#bb001f"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btndecode"-->
+<!--            android:layout_width="110dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@drawable/neonbutton"-->
+<!--            android:padding="13dp"-->
+<!--            android:text="დაშიფრვა"-->
+<!--            android:textColor="#fff"-->
+<!--            android:textSize="10dp"-->
+<!--            android:textStyle="bold"-->
+<!--            app:backgroundTint="#bb001f"/>-->
+    </LinearLayout>
+
+    <!--edit text to display output to the user.
+        Edit text is used since the user can copy the
+        text easily if he wants to-->
+    <EditText
+        android:id="@+id/etoutput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/llout"
+        android:layout_marginTop="10dp"
+        android:background="#bdc2c7"
+        android:gravity="start"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

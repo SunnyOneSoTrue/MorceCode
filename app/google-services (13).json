@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "199545255722",
+    "project_id": "sign-b4ce4",
+    "storage_bucket": "sign-b4ce4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199545255722:android:cb224e324efccbb7b7d053",
+        "android_client_info": {
+          "package_name": "com.example.signsloginfinall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199545255722-qro038chstvrru5bhcl22a5s18s9t56b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5r2FZ5rfBBEk0FhdJm612kZzuXRCqBFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199545255722-qro038chstvrru5bhcl22a5s18s9t56b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
