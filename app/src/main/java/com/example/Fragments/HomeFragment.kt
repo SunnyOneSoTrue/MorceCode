@@ -78,8 +78,8 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     private fun sypherToText(s:String): String{
         val strs = s.split(" ").toTypedArray()
         val letterArray= strs.map {value -> convertSypherToChar(value) }
-        letterArray.joinToString("")
-        return letterArray.toString()
+
+        return letterArray.joinToString(" ")
     }
 
     private fun convertCharToSypher(c: Char) = when (c.toLowerCase()) {
