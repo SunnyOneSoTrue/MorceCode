@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="-8dp"
         android:gravity="center"
-        android:text="MORCE CODE"
+        android:text="Sypher Endocer/decoder"
         android:textAlignment="center"
         android:textColor="#bb001f"
         android:textSize="25sp"
@@ -36,14 +36,31 @@
         android:layout_height="50dp"
         android:layout_below="@+id/etinput"
         android:layout_marginTop="5dp"
+        android:weightSum="3"
         android:gravity="center"
         android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/changeButton"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/neonbutton"
+            android:padding="13dp"
+            android:text="Text To Sypher"
+            android:textColor="#fff"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:backgroundTint="#bb001f" />
+
         <Button
             android:id="@+id/btndecode"
             android:layout_width="180dp"
             android:layout_height="match_parent"
             android:background="@drawable/neonbutton"
             android:padding="13dp"
+            android:layout_weight="1"
             android:text="დაშიფრვა"
             android:textColor="#fff"
             android:textSize="10dp"
@@ -54,6 +71,7 @@
         <Button
             android:id="@+id/btnclear"
             android:layout_width="180dp"
+            android:layout_weight="1"
             android:layout_height="match_parent"
             android:layout_marginRight="5dp"
             android:background="@drawable/neonbutton"
